@@ -13,6 +13,8 @@ State-of-the-Art Summarization: Leverages a pre-trained Transformer model from H
 
 Modular Pipeline: Each step of the process (data fetching, preprocessing, and modeling) is separated into its own module for easy maintenance and testing.
 
+⚙️ How It Works
+The project follows a simple, three-step data pipeline:
 User Input (Company Name)
         ->
  [apidata.py] → Fetches raw articles from APIs
