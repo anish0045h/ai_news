@@ -5,13 +5,14 @@ AI News Summarizer is a Python-based project that automatically fetches the late
 This project currently runs as a console-based pipeline, and a web interface will be added in the next stage.
 
 🚀 Key Features
-Dynamic News Fetching: Gathers real-time news articles from multiple web APIs based on a user-provided company name.
 
-Intelligent Text Cleaning: Automatically strips raw HTML, advertisement boilerplate, and other non-content elements to extract pure article text.
+-> Dynamic News Fetching: Gathers real-time news articles from multiple web APIs based on a user-provided company name.
 
-State-of-the-Art Summarization: Leverages a pre-trained Transformer model from Hugging Face to produce high-quality, abstractive summaries.
+-> Intelligent Text Cleaning: Automatically strips raw HTML, advertisement boilerplate, and other non-content elements to extract pure article text.
 
-Modular Pipeline: Each step of the process (data fetching, preprocessing, and modeling) is separated into its own module for easy maintenance and testing.
+-> State-of-the-Art Summarization: Leverages a pre-trained Transformer model from Hugging Face to produce high-quality, abstractive summaries.
+
+-> Modular Pipeline: Each step of the process (data fetching, preprocessing, and modeling) is separated into its own module for easy maintenance and testing.
 
 ⚙️ How It Works
 The project follows a simple, three-step data pipeline:
