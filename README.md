@@ -15,13 +15,14 @@ Modular Pipeline: Each step of the process (data fetching, preprocessing, and mo
 
 ⚙️ How It Works
 The project follows a simple, three-step data pipeline:
+
 User Input (Company Name)
         ->
- [apidata.py] → Fetches raw articles from APIs
+[apidata.py] → Fetches raw articles from APIs
         ->
- [preprocess.py] → Cleans and filters the text
+[preprocess.py] → Cleans and filters the text
         ->
- [summary_model.py] → Generates summarized output
+[summary_model.py] → Generates summarized output
 
 
 🧰 Technologies Used
