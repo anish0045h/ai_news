@@ -15,6 +15,7 @@ This project currently runs as a console-based pipeline, and a web interface wil
 -> Modular Pipeline: Each step of the process (data fetching, preprocessing, and modeling) is separated into its own module for easy maintenance and testing.
 
 ⚙️ How It Works
+
 The project follows a simple, three-step data pipeline:
 
 User Input (Company Name)
@@ -44,6 +45,9 @@ Regex (re) → For text cleaning and normalization
 📌 Current Status
 
 ✅ API integration complete
+
 ✅ Data preprocessing complete
+
 ✅ Summarization model integrated
+
 🚧 Web interface development — coming next
